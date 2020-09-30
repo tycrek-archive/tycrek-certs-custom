@@ -1,0 +1,28 @@
+{
+  "name": "tycrek-certs-custom",
+  "version": "0.1.0",
+  "description": "(For tycrek's use only) make it easier to automate renewing my HTTPS certs",
+  "main": "certs.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tycrek/tycrek-certs-custom.git"
+  },
+  "author": "tycrek",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tycrek/tycrek-certs-custom/issues"
+  },
+  "homepage": "https://github.com/tycrek/tycrek-certs-custom#readme",
+  "dependencies": {
+    "@root/acme": "^3.1.0",
+    "acme-dns-01-digitalocean": "^3.0.1"
+  },
+  "devDependencies": {
+    "moment": "^2.29.0",
+    "pino": "^6.6.1",
+    "pino-pretty": "^4.2.1"
+  }
+}
